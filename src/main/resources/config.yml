@@ -1,0 +1,39 @@
+# Show custom join messages when players connect
+enable-join-messages: true
+
+# Show custom quit messages when players disconnect
+enable-quit-messages: true
+
+# Hide Minecraft's default join/quit messages
+hide-vanilla-messages: true
+
+# Broadcast command messages to server when sender == target (self),
+# otherwise it sends only to the target (and confirms to sender).
+broadcast-command-messages: true
+
+# Extra logging + more verbose debug output
+debug: false
+
+# Cooldown in seconds for /greet and /bye commands (0 = no cooldown) (-1 = disabled)
+greet-bye-cooldown-seconds: 30
+
+# Cooldown in seconds for /aura reloadconfig command (0 = no cooldown) (-1 = disabled)
+reload-cooldown-seconds: 60
+
+# List of custom greetings to choose from
+# USE the root folder of the plugin to reference files i.e. plugins/MinecraftAura/ folder.
+# ONLY .txt files are supported for now.
+# Each line is a message. Blank lines and lines starting with # are ignored as comments.
+# Example: greetings-file: greetings.txt
+# Example: byes-file: byes.txt
+# SAME PROCEDURE FOR BYE FILE
+
+greetings-file: <file.txt>
+byes-file: <file.txt>
+
+# EXTENSIVE DOCUMENTATION OF greetings-file and byes-file
+# Each line in the files represents a message that can include color codes and placeholders.
+# Supported placeholders:
+# %player% (replaced with the player's name)
+# Color codes use the '&' symbol followed by a character (e.g., &a for green). 
+# REFER TO https://minecraft.fandom.com/wiki/Formatting_codes#Color_codes FOR MORE INFO ON COLOR CODES.

@@ -1,0 +1,46 @@
+name: MinecraftAura
+version: 6.7.6.7
+main: io.pain.ind.aura.MinecraftAura
+api-version: "1.20"
+author: IND_is_Here
+
+commands:
+  greet:
+    description: Sends a random greeting
+    usage: /greet [player_name]
+    aliases: [greeting]
+    permission: aura.cmd.greet
+    permission-message: What did you do to deserve this? NO Perms man.
+
+  bye:
+    description: Sends a random farewell
+    usage: /bye [player_name]
+    aliases: [goodbye]
+    permission: aura.cmd.bye
+    permission-message: What did you do to deserve this? NO Perms man.
+
+  aura:
+    description: Main MinecraftAura command
+    usage: /aura <subcommand>
+    permission: aura.main
+    permission-message: You do not have permission to use /aura.
+
+
+permissions:
+  aura.main:  #Main perm node for the plugin for members to use /aura
+    default: true
+  aura.greet: #Perm for them to actually receive greetings on join
+    default: true
+  aura.bye:   #Perm for them to actually receive byes on leave
+    default: true
+  aura.cmd.greet: #The /greeting command perm
+    default: true
+  aura.cmd.bye:   #The /bye command perm
+    default: true
+
+  aura.reloadconfig:  #For reloading the config
+    default: op
+  aura.cooldown.bypass:
+    default: op
+  aura.aura:       #For getting all the aura(perms)
+    default: op

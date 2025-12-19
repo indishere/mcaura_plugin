@@ -1,0 +1,11 @@
+# Show custom join messages when players connect
+enable-join-messages: true
+
+# Show custom quit messages when players disconnect
+enable-quit-messages: true
+
+# Hide Minecraft's default join/quit messages
+hide-vanilla-messages: true
+
+# Cooldown in seconds for /greeting and /bye commands (0 = no cooldown)
+command-cooldown-seconds: 30

@@ -1,0 +1,34 @@
+name: MinecraftAura
+version: 6.7.6.7
+main: io.pain.ind.aura.MinecraftAura
+api-version: "1.20"
+author: IND_is_Here
+
+commands:
+  greeting:
+    description: Sends a random greeting
+    usage: /greeting
+    permission: aura.greeting
+    permission-message: What did you do to deserve this? NO Perms man.
+
+  bye:
+    description: Sends a random farewell
+    usage: /bye
+    permission: aura.bye
+    permission-message: What did you do to deserve this? NO Perms man.
+
+  configreload:
+    description: Reloads the plugin configuration
+    usage: /configreload
+    permission: aura.configreload
+    permission-message: You do not have permission to reload the configuration.
+
+permissions:
+  aura.configreload:
+    default: op
+  aura.cooldown.bypass:
+    default: op
+  aura.greeting:
+    default: true
+  aura.bye:
+    default: true

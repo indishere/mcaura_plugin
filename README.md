@@ -3,7 +3,7 @@
 MinecraftAura is a lightweight, configurable **greeting and farewell plugin** designed for Paper-based servers.
 It focuses on clarity, permission control, and predictable behavior without unnecessary complexity.
 
-No NMS. No magic hacks. Just clean server-side logic.
+No magic hacks. Just server-side logic.
 
 ---
 
@@ -39,16 +39,16 @@ No NMS. No magic hacks. Just clean server-side logic.
    ```
    /plugins/
    ```
-3. Start the server once
-4. Stop the server
-5. Edit:
+3. Restart/Start the server
+4. (Optional) Edit:
 
    ```
    plugins/MinecraftAura/config.yml
    ```
-6. (Optional) Add custom message files
-7. Start the server again
-
+5. (Optional) Add custom message files in `plugins/MinecraftAura/` folder (ONLY .txt files allowed)
+6. APPLY /aura reloadconfig WITH op permissions
+7. You are good to go! You don't need to handle the plugin until an update now!
+   
 ---
 
 ## ⚙️ Commands
@@ -192,7 +192,7 @@ Built for servers that prefer control over chaos.
 **The Unlicense**
 
 This software is released into the public domain.
-Do whatever you want with it.
+Do whatever you want with it. (THIS IS NOT LEGAL ADVISE. REFER to LICENSE file for details.) 
 
 ---
 

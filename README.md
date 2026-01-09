@@ -27,7 +27,7 @@ No magic hacks. Just server-side logic.
 * **Platform:** Paper & Paper forks (Purpur, Pufferfish, etc.)
 * **Minecraft Versions:** 1.20.x and UP
 * **Java:** 17+
-* **Not compatible with Forge or Fabric** (this is a server plugin)
+* **Not compatible with Forge or Fabric** (this is a paper plugin)
 
 ---
 
